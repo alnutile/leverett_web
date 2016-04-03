@@ -1,0 +1,10 @@
+{
+    "id": "ca1ea61d-0f33-434e-8e3a-e6670ca76a72",
+    "results": "s:95:\"[\n    \"Ping: 15.197 ms\",\n    \"Download: 26.96 Mbyte\\\/s\",\n    \"Upload: 12.63 Mbyte\\\/s\",\n    \"\"\n]\";",
+    "sent": "0",
+    "created_at": "2016-04-03 14:39:12",
+    "updated_at": "2016-04-03 14:46:16",
+    "tries": 4,
+    "api_version": "v1",
+    "machine": "foobar"
+}
