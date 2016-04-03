@@ -12,3 +12,12 @@ Add Token Auth to the API Route
 Add other role other to read data
 
 Log rotation
+
+User Area
+
+Results Area and filter and export to excel
+
+Token system to make tokens
+
+Auth so that all api is token protected
+
