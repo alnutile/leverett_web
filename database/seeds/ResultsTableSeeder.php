@@ -11,8 +11,8 @@ class ResultsTableSeeder extends Seeder
      */
     public function run()
     {
-        factory(\App\Result::class, 25)->create();
+        factory(\App\Result::class, 200)->create();
 
-        
+
     }
 }

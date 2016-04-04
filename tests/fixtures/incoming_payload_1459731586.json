@@ -1,0 +1,14 @@
+{
+    "results": [
+        "Ping: 9.761 ms",
+        "Download: 22.65 Mbyte\/s",
+        "Upload: 17.40 Mbyte\/s",
+        ""
+    ],
+    "sent": 0,
+    "id": "84977789-6d27-4293-9a73-6b3503a04618",
+    "tries": 2,
+    "updated_at": "2016-04-04 00:59:46",
+    "created_at": "2016-04-04 00:59:46",
+    "machine": "foobar"
+}

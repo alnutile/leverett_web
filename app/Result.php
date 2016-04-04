@@ -6,6 +6,10 @@ use Illuminate\Database\Eloquent\Model;
 
 class Result extends Model
 {
+    protected $casts = [
+        'results' => 'json',
+    ];
+
     protected $fillable = [
         'results',
         'machine_id',
@@ -14,4 +18,9 @@ class Result extends Model
         'api_version',
         'tries'
     ];
+
+    public function getResultsAttribute($value)
+    {
+        return json_encode($value, JSON_PRETTY_PRINT);
+    }
 }
