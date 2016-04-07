@@ -4,9 +4,53 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1711c2110548f9fae6a00da208c54a22",
-    "content-hash": "734ce06ebabdd3e3a0c6c32aede52419",
+    "hash": "d98f9c63b8ac9fff21910e4606f8af2c",
+    "content-hash": "014cc928d92bbc2e261d4b2773a05c65",
     "packages": [
+        {
+            "name": "alfred-nutile-inc/env-deployer",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/alfred-nutile-inc/env-deployer.git",
+                "reference": "4de82cb62c8761ce31f6dbfe7d242cc442b1d356"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/alfred-nutile-inc/env-deployer/zipball/4de82cb62c8761ce31f6dbfe7d242cc442b1d356",
+                "reference": "4de82cb62c8761ce31f6dbfe7d242cc442b1d356",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/console": "*",
+                "illuminate/contracts": "*",
+                "illuminate/filesystem": "*",
+                "illuminate/support": "*",
+                "php": ">=5.4.0",
+                "vlucas/phpdotenv": "*"
+            },
+            "require-dev": {
+                "fzaninotto/faker": "1.4.0",
+                "mockery/mockery": "0.9.*",
+                "phpunit/phpunit": "~4.0",
+                "symfony/var-dumper": "^2.7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "AlfredNutileInc\\EnvDeployer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Alfred Nutile Inc",
+                    "email": "me@alfrednutile.info"
+                }
+            ],
+            "description": "Makes deploying Env super easy",
+            "time": "2016-01-16 00:41:26"
+        },
         {
             "name": "classpreloader/classpreloader",
             "version": "3.0.0",
@@ -527,7 +571,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Maatwebsite/Laravel-Excel/zipball/33ca8f634167c502771a18e612bd0e853a783150",
+                "url": "https://api.github.com/repos/Maatwebsite/Laravel-Excel/zipball/d0fa02ddec4922111f7924493d9862152e5f81b4",
                 "reference": "33ca8f634167c502771a18e612bd0e853a783150",
                 "shasum": ""
             },
@@ -3182,7 +3226,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "alfred-nutile-inc/env-deployer": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

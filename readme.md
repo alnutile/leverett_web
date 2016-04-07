@@ -4,6 +4,8 @@
 
 #@TODO
 
+Excel export
+
 CI Testing to Deploy
 
 Add Token Auth to the API Route
@@ -22,3 +24,5 @@ Token system to make tokens
 Auth so that all api is token protected
 
 Break up the datapoints as needed
+
+Setup Password reset and mail
