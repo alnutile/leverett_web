@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\App;
 
 class ResultsTableSeeder extends Seeder
 {
@@ -11,7 +12,8 @@ class ResultsTableSeeder extends Seeder
      */
     public function run()
     {
-        factory(\App\Result::class, 200)->create();
+        if(App::environment() !== 'production')
+            factory(\App\Result::class, 200)->create();
 
 
     }
