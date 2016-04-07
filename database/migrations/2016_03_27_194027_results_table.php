@@ -9,7 +9,7 @@ class ResultsTable extends Migration
     {
         Schema::create('results', function (Blueprint $table) {
             $table->increments('id');
-            $table->json('results')->nullable();
+            $table->longText('results')->nullable();
             $table->string('machine_id')->nullable();
             $table->string('results_originally_created_at');
             $table->string('ip');
