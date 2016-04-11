@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0b503b728cf521aab82983a1f1a4b3c9",
-    "content-hash": "bc0da33857c2c0f4c4d56c61099c83cc",
+    "hash": "e7b304eea1d1f269858d32943c22d278",
+    "content-hash": "cbd89de580ef40f2302c932264d11cd7",
     "packages": [
         {
             "name": "alfred-nutile-inc/env-deployer",
@@ -204,6 +204,56 @@
                 "string"
             ],
             "time": "2015-11-06 14:35:42"
+        },
+        {
+            "name": "fzaninotto/faker",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fzaninotto/Faker.git",
+                "reference": "684eab1624a66a4c37762c747c88a7f8664c65bf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/684eab1624a66a4c37762c747c88a7f8664c65bf",
+                "reference": "684eab1624a66a4c37762c747c88a7f8664c65bf",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.3.3|^7.0"
+            },
+            "require-dev": {
+                "ext-intl": "*",
+                "phpunit/phpunit": "~4.0",
+                "squizlabs/php_codesniffer": "~1.5"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.6.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Faker\\": "src/Faker/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "François Zaninotto"
+                }
+            ],
+            "description": "Faker is a PHP library that generates fake data for you.",
+            "keywords": [
+                "data",
+                "faker",
+                "fixtures"
+            ],
+            "time": "2016-04-06 16:46:55"
         },
         {
             "name": "jakub-onderka/php-console-color",
@@ -2158,56 +2208,6 @@
                 "instantiate"
             ],
             "time": "2016-03-31 10:24:22"
-        },
-        {
-            "name": "fzaninotto/faker",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/fzaninotto/Faker.git",
-                "reference": "684eab1624a66a4c37762c747c88a7f8664c65bf"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/684eab1624a66a4c37762c747c88a7f8664c65bf",
-                "reference": "684eab1624a66a4c37762c747c88a7f8664c65bf",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^5.3.3|^7.0"
-            },
-            "require-dev": {
-                "ext-intl": "*",
-                "phpunit/phpunit": "~4.0",
-                "squizlabs/php_codesniffer": "~1.5"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.6.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Faker\\": "src/Faker/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "François Zaninotto"
-                }
-            ],
-            "description": "Faker is a PHP library that generates fake data for you.",
-            "keywords": [
-                "data",
-                "faker",
-                "fixtures"
-            ],
-            "time": "2016-04-06 16:46:55"
         },
         {
             "name": "hamcrest/hamcrest-php",
