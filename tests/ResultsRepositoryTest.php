@@ -16,13 +16,18 @@ class ResultsRepositoryTest extends TestCase
      */
     public function should_create_results()
     {
+        $user = factory(\App\User::class)->create();
+
         $results_before = Result::all()->count();
         
         $payload = json_decode(File::get(base_path('tests/fixtures/incoming_payload_2.json')), true);
 
         $data    = $payload;
 
-        $this->call('POST', '/api/v1/results', $data);
+        $this->call('POST', sprintf('/api/v1/results?api_token=%s',
+            $user->api_token), $data);
+
+        $this->assertResponseStatus(200);
         
         $results_after = Result::all()->count();
 
@@ -32,4 +37,5 @@ class ResultsRepositoryTest extends TestCase
 
         $this->assertNotNull($result->results);
     }
+    
 }

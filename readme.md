@@ -4,7 +4,19 @@
 
 #@TODO
 
+DONE Get HTTPS and SSL
+
+Then setup token so I can start using that for my home machine
+
+UI to add user tokens
+
+Token in front of the API and only those routes use it
+
 Excel export
+
+Password reset
+
+Setup Laptop to start talking to it
 
 CI Testing to Deploy
 

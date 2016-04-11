@@ -1,0 +1,10 @@
+{
+    "results": "[\n    \"Ping: 17.206 ms\",\n    \"Download: 18.06 Mbyte\\\/s\",\n    \"Upload: 16.20 Mbyte\\\/s\",\n    \"\"\n]",
+    "sent": 0,
+    "id": "c14350b2-05d2-4700-a034-44e68c21111b",
+    "tries": 2,
+    "updated_at": "2016-04-04 00:47:04",
+    "created_at": "2016-04-04 00:47:04",
+    "machine": "foobar",
+    "api_token": "fWiRwNqzCB"
+}

@@ -8,7 +8,8 @@
         "php": ">=5.5.9",
         "laravel/framework": "5.2.*",
         "maatwebsite/excel": "^2.1",
-        "alfred-nutile-inc/env-deployer": "dev-master"
+        "alfred-nutile-inc/env-deployer": "dev-master",
+        "laralib/l5scaffold": "dev-master"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
@@ -17,6 +18,12 @@
         "symfony/css-selector": "2.8.*|3.0.*",
         "symfony/dom-crawler": "2.8.*|3.0.*"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/alnutile/l5scaffold.git"
+        }
+    ],
     "autoload": {
         "classmap": [
             "database"

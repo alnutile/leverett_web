@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use App\User;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
@@ -13,7 +14,12 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        User::creating(function($model) {
+            if(!$model->api_token)
+            {
+                $model->api_token = str_random(16);
+            }
+        });
     }
 
     /**
@@ -23,6 +29,8 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        if ($this->app->environment() == 'local') {
+            $this->app->register('Laralib\L5scaffold\GeneratorsServiceProvider');
+        }
     }
 }
